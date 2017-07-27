@@ -2,6 +2,8 @@
 # This file contains configuration flags to customize your site
 #
 
+baseurl: /wandering-jekyll
+
 # Name of your site (displayed in the header)
 name: Hannah Griffin
 
