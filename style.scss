@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $openSans;
   color: $darkGray;
 }
 
@@ -33,7 +33,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
-  font-weight: bold;
+  font-weight: normal;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $deepPink;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $pink;
   }
 }
 
@@ -150,6 +150,8 @@ img {
 // .masthead
 //
 
+
+
 .wrapper-masthead {
   margin-bottom: 50px;
 }
@@ -192,9 +194,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $deepPink;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $sueEllen;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -225,14 +227,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $deepPink;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $deepPink;
     }
   }
 }
