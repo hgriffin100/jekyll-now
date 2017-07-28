@@ -47,13 +47,14 @@ url:
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "/wandering-jekyll"
 
 #
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: /:title/
+#permalink: /:title/
+permalink: /:year/:month/:day/:title
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -69,7 +70,7 @@ kramdown:
     css_class: 'highlight'
 
 google_font:
-  - url: "http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco"
+  - url: "https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco"
   - url: "https://fonts.googleapis.com/css?family=Open+Sans"
 
 # Set the Sass partials directory, as we're using @imports
