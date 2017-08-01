@@ -57,8 +57,8 @@ baseurl: "/wandering-jekyll"
 permalink: /:year/:month/:day/:title
 
 # Where are tags and categories displayed
-tag_page: '/tags/'
-category_page: '/categories/'
+tag_page: '/tags'
+category_page: '/categories'
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
