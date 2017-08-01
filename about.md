@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-
 I create software at STFC's Rutherford Appleton Laboratory to help scientists do great research that benefits you, the UK, and the planet in general. I lead a group of over a dozen amazing software engineers. My group hosts work experience students, paid vacation students, and sandwich/year in industry students. We also recruit apprentices and graduates.
 
 
@@ -16,5 +15,8 @@ I'm married to Tom who also works at "the lab". I love walking, paddling about i
 ### Contact me
 [hannah@tomandhannah.co.uk](mailto:hannah@tomandhannah.co.uk)
 
+---
+
+Powered by [Jekyll](http://jekyllrb.com/), [Jekyll Now](https://github.com/barryclark/jekyll-now/), and [codinfox-lanyon](http://codinfox.github.io/)
 
 Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way.

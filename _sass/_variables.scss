@@ -23,6 +23,11 @@ $georgia: Georgia, serif;
 $sueEllen: "Sue Ellen Francisco", cursive;
 $openSans: "Open Sans", sans-serif;
 
+//Themes
+$theme-color: $deepPink;
+$theme-color-dark: darken($theme-color, 10%);
+$font-sans: $openSans;
+$post-date-color: $darkerGray;
 
 // Mobile breakpoints
 @mixin mobile {
